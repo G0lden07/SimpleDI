@@ -24,10 +24,6 @@ class Program
 			})
 			.Build();
 
-		using var serviceScope = host.Services.CreateScope();
-
 		await host.RunAsync();
-
-
 	}
 }
